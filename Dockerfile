@@ -2,7 +2,7 @@ FROM renovate/python@sha256:f73ad21f5078b6d31f8b6321d1fe7a98393067405c71fb50f6ea
 
 USER root
 
-RUN apt-get update && apt-get install -y python3-distutils && apt-get clean
+RUN apt-get update && apt-get install -y python3-distutils python3-venv && apt-get clean
 
 RUN curl --silent https://bootstrap.pypa.io/get-pip.py | python
 
