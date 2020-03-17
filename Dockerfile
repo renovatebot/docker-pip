@@ -1,4 +1,4 @@
-FROM renovate/python@sha256:7d5ecefeddb973d5ebd9784905e89155121f7496f28568f272dd9fede2d46229
+FROM renovate/python@sha256:0792eecf2c3815ae4f1e978a8bd491ad449a3daba5727c2ea11f5005f1136762
 
 USER root
 
